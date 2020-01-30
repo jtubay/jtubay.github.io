@@ -115,3 +115,16 @@ body{
     50% { border-color: orange; }
   }
 */
+
+
+
+
+.container{
+    height: 22rem;
+    width: 100vw;
+   
+    text-align: center;
+    top: 40%;
+    width: 100%;
+    line-height: 3em;
+}
