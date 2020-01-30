@@ -29,13 +29,23 @@
     color: white;
 }*/
 * { box-sizing: border-box; border: 0; font-size: 100%; font: inherit; vertical-align: baseline; margin: 0; padding: 0; tap-highlight-color:rgba(0,0,0,0); }
+body {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #F0F0F0;
+    font-family: Courier, monospace;
+    font-style: normal;
+    font-weight: 100;
+    color: #202020;
+    font-smoothing: antialiased;
+  }
 
-
-body{
+/*body{
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
-}
+}*/
 #particles-js{
    
    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url('./images/image1.jpg');
@@ -203,7 +213,7 @@ h1 a {
     margin: 1em auto;
     font-size: 2em;
     line-height: 1.5em;
-    border-right: .125em solid #39F;
+    border-right: .125em solid purple;
     box-sizing: content-box;
     animation-name: blink-start, typing, blink-end;
     animation-duration: 1s, 1s, 1s;
@@ -225,12 +235,12 @@ h1 a {
   }
   
   @keyframes blink-start {
-    from, to { border-color: #39F; }
+    from, to { border-color: purple; }
     50% { border-color: transparent; }
   }
   
   @keyframes blink-end {
-    from, to { border-color: #39F; }
+    from, to { border-color: purple; }
     50% { border-color: transparent; }
   }
   .contact {
