@@ -62,10 +62,33 @@ body{
     text-align: center;
     top: 40%;
     width: 100%;
-    line-height: 0.4em;
+    line-height: 3em;
 }
 .home-2 {
     height: 100vh;
     width: 100vw;
     background-color:blue;
 }
+/*
+
+.btext h1 {
+    overflow: hidden; 
+    border-right: .15em solid orange; 
+    white-space: nowrap; 
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+}
+@keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: orange; }
+  }
+*/
