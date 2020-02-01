@@ -10,15 +10,25 @@
  <link rel="stylesheet" href="style.css">
  <link rel="stylesheet" href="./node_modules/sal.js/dist/sal.css">
  <link rel="stylesheet" href="./main/main.css">
+ <link rel="stylesheet" href="./navStyle.css">
  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
 </head>
 <body>
 <!--Landing-->
-<div data-sal-duration="1000" data-sal="fade" data-sal-delay="100" data-sal-easing="ease-out-bounce" id="particles-js">
+<div class="main" id="particles-js">
     <div class="btext">
         <h1 class="typing">Hello, I'm <span class="myName"> Jean Tubay</span>, <br>I'm a full-stack web developer.</h1>
         <a href="#" class="btn">View My Work</a>
     </div>
+</div>
+<div class="nav bottom-nav">
+    <ul>
+        <li><a href="#" class="nav-link">Home</a></li>
+        <li><a href="#" class="nav-link">blog</a></li>
+        <li><a href="#" class="nav-link">about</a></li>
+        <li><a href="#" class="nav-link">video</a></li>
+        <li><a href="#" class="nav-link">contact</a></li>
+    </ul>
 </div>
 
 
@@ -96,10 +106,13 @@
  
  <script src="./javaScript/particle.js"></script>
  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
-
+<script src="./javaScript/nav.js"></script>
 
  <script>
- sal();
+ sal({
+     threshold: 1,
+     once: false,
+ });
  </script>
 
 </body>
