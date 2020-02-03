@@ -91,7 +91,7 @@
 
 <div class="container" id="five">
     <div data-sal-duration="1200" data-sal="slide-up" data-sal-delay="200" data-sal-easing="ease-out-bounce">
-        <h1 ><a href="#"><em>J</em>ean <em>T</em>ubay</a></h1>
+        <h1 ><a href="#" id="modalBtn" class="button"><em>J</em>ean <em>T</em>ubay</a></h1>
     </div>
     <p class="slogan" data-sal-duration="1200" data-sal="slide-up" data-sal-delay="100" data-sal-easing="ease-out-bounce"><span>I code stuff.</span></p>
     <div class="contact" data-sal-duration="1200" data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease-out-bounce">
@@ -102,6 +102,13 @@
     </div>
 </div>
 
+<div id="simpleModal" class="modal">
+    <div class="modal-content">
+        <span class="closeBtn">&times;</span>
+        <p>hello I ame a modal</p>
+    </div>
+</div>
+
 
 
  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
@@ -109,6 +116,7 @@
  <script src="./javaScript/particle.js"></script>
  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
  <script src="./javaScript/nav.js"></script>
+ <script src="./javaScript/modal.js"></script>
 <script>
  sal();
  </script>
