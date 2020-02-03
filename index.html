@@ -16,18 +16,19 @@
 <div class="main" id="particles-js">
     <div class="btext">
         <h1 class="typing">Hello, I'm <span class="myName"> Jean Tubay</span>, <br>I'm a full-stack web developer.</h1>
-        <a href="#" class="btn">View My Work</a>
+        <a href="#three" class="btn">View My Work</a>
     </div>
 </div>
-<div class="nav bottom-nav">
-    <ul>
-        <li><a href="#" class="nav-link">Home</a></li>
-        <li><a href="#" class="nav-link">blog</a></li>
-        <li><a href="#" class="nav-link">about</a></li>
-        <li><a href="#" class="nav-link">video</a></li>
-        <li><a href="#" class="nav-link">contact</a></li>
-    </ul>
-</div>
+
+    <nav class="nav bottom-nav">
+        <ul>
+            <li><a href="#particles-js" class="nav-link">Home</a></li>
+            <li><a href="#two" class="nav-link">About</a></li>
+            <li><a href="#three" class="nav-link">Projects</a></li>
+            <li><a href="#four" class="nav-link">Skill</a></li>
+            <li><a href="#five" class="nav-link">contact</a></li>
+        </ul>
+    </nav>
 
 
 
@@ -35,11 +36,12 @@
 
 
 
-<section>
+
+<section id="two">
     <h1 data-sal-duration="1200" data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease-out-bounce">
         Scroll me baby, <br>oh yeah</h1>
 </section>
-<section>
+<section id="three">
     <div class="left" 
     data-sal-duration="1200" 
     data-sal="slide-up" 
@@ -58,19 +60,19 @@
         <img src="./images/swipe.svg">
     </div>
 </section>
-<section>
+<section id="four">
     <div class="one"
-    data-sal-duration="1200" data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease-out-bounce">
+    data-sal-duration="1000" data-sal="slide-up" data-sal-delay="100" data-sal-easing="ease-out-bounce">
         <h3>Keep</h3>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam veritatis..</p>
     </div>
     <div class="two"
-    data-sal-duration="1200" data-sal="slide-up" data-sal-delay="500" data-sal-easing="ease-out-bounce">
+    data-sal-duration="1000" data-sal="slide-up" data-sal-delay="200" data-sal-easing="ease-out-bounce">
         <h3>it</h3>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam veritatis.....</p>
     </div>
     <div class="three"
-    data-sal-duration="1200" data-sal="slide-up" data-sal-delay="700" data-sal-easing="ease-out-bounce">
+    data-sal-duration="1000" data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease-out-bounce">
         <h3>Scrolling</h3>
         <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam veritatis dolores esse debitis iure assumenda perferendis illum...</p>
     </div>
@@ -87,10 +89,12 @@
 
 
 
-<div class="container">
-    <h1><a href="#"><em>J</em>ean <em>T</em>ubay</a></h1>
-    <p class="slogan"><span>I code stuff.</span></p>
-    <div class="contact">
+<div class="container" id="five">
+    <div data-sal-duration="1200" data-sal="slide-up" data-sal-delay="200" data-sal-easing="ease-out-bounce">
+        <h1 ><a href="#"><em>J</em>ean <em>T</em>ubay</a></h1>
+    </div>
+    <p class="slogan" data-sal-duration="1200" data-sal="slide-up" data-sal-delay="100" data-sal-easing="ease-out-bounce"><span>I code stuff.</span></p>
+    <div class="contact" data-sal-duration="1200" data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease-out-bounce">
       <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
       <a href="#" target="_blank"><i class="fab fa-facebook"></i></a>
       <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
@@ -106,10 +110,7 @@
  <script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
  <script src="./javaScript/nav.js"></script>
 <script>
- sal({
-     threshold: 1,
-     once: false,
- });
+ sal();
  </script>
  
 
