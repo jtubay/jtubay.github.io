@@ -418,7 +418,7 @@ label{
 .team .team_member h3{
   color:#81c644;
   font-size: 26px;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 .team .team_member p.role{
   color:#ccc;
@@ -429,17 +429,26 @@ label{
 .team .team_member .team_img{
   width:100px;
   height: 100px;
-  border-radius: 50%;
   position: absolute;
   top: -50px;
   left: 50%;
-  transform: translateX(-50%);
-  background: #fff;
+  transform: translateX(-70%);
+  
 }
 
-.team .team_member .team_img img{
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  padding: 10px;
+.fa-html5, .fa-js, .fa-css3 {
+  font-size: 6em;
+  margin: 2rem;
+
 }
+.fa-html5 {
+  color: #e54d26;
+}
+.fa-css3 {
+  color: #2163af;
+}
+.fa-js{
+  color: yellow;
+}
+
+
