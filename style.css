@@ -166,12 +166,12 @@ h1 a {
   line-height: 3em;
   color: transparent;
   border-radius: 50%;
-  border: 0em solid #39f;
+  border: 0em solid purple;
 }
 
 h1 a:hover,
 h1 a:focus {
-  background-color: #39f;
+  background-color: purple;
 }
 h1 a:active {
   transform: scale(0.8);
@@ -256,7 +256,7 @@ hr {
   animation-delay: 2.65s;
 }
 .contact a:hover {
-  color: #39f;
+  color: purple;
 }
 
 /* Modal Styles*/
@@ -277,7 +277,7 @@ hr {
   background-color: #f4f4f4;
   margin: 20% auto;
   padding: 20px;
-  width:70%;
+  width:35%;
   box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2), 0 7px 20px 0 rgba(0,0,0,0.17);
 }
 .closeBtn{
@@ -295,7 +295,7 @@ hr {
 
 
 
-/* contact modal*/
+/* contact modal styles*/
 
 .contactMeNow {
   padding: 16px;
@@ -316,7 +316,7 @@ hr {
 }
 
 .gt-input {
-  width: 400px;
+  width: 100%;
   height: 48px;
   padding: 0 20px;
   font-size: 20px;
@@ -378,4 +378,23 @@ label{
 
 
 
-/*end */
+/*contact end */
+
+
+
+.wrapper{
+  margin-top:10%;
+  margin-bottom: 10%;
+}
+.wrapper h1{
+  font-size:52px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.team{
+  display: flex;
+  text-align: center;
+  width: auto;
+  
+}
