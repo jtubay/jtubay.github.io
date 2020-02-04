@@ -382,13 +382,19 @@ label{
 
 
 /*about me*/
+.test{
+  display: flex;
+  justify-content: center;
+}
 .wrapper{
   margin-top:10%;
 }
 .wrapper h1{
   font-size:52px;
-  margin-bottom: 60px;
+  margin-bottom: 120px;
   text-align: center;
+  border-bottom: 5px solid purple;
+  
 }
 
 .team{
