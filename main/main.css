@@ -1,6 +1,6 @@
 section {
-  height: calc(125vh - 8em);
-  padding: 8em;
+  height: calc(120vh - 8em);
+  padding: 4em;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -13,7 +13,7 @@ section h1 {
 }
 
 section:nth-of-type(1) {
-  background: #2b3033;
+  background-color: #dde3e6;
   color: #4e5356;
 }
 

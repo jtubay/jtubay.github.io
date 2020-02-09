@@ -4,13 +4,13 @@ particlesJS("particles-js", {
         "value":80
     },
     "color":{
-        "value": "#f9f3f4"
+        "value": "#04c2c9"
     },
     "shape":{
         "type": "circle",
         "stroke":{
-            "width":1,
-            "color":"#ccc"
+            "width":0.1,
+            "color":"#40e0d0"
         }
     },
     "opacity":{
