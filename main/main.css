@@ -1,10 +1,10 @@
 section {
-  height: 60rem;
+  height: 50rem;
   padding: 4em;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  min-height: 60rem;
+  min-height: 50rem;
 }
 
 section h1 {

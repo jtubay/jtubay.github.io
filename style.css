@@ -606,8 +606,8 @@ label{
 #three{
   background: #dde3e6;
   padding-top: 50px;
-  height: 25rem;
-  min-height: 25rem;
+  height: 20rem;
+  min-height: 20rem;
   
   display: -ms-grid;
   display: grid;
