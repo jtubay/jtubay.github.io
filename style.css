@@ -169,15 +169,27 @@ i {
 /*contact section*/
 
 .container {
-  padding-top: 14vh;
-  height: 22rem;
+  padding-top: 6vh;
+  height: 12rem;
   width: 100vw;
-
   text-align: center;
   top: 40%;
   width: 100%;
   line-height: 3em;
   font-family: Courier, monospace;
+}
+/*ScrollUp*/
+#topBtn {
+  display: fixed;
+  bottom: 40px;
+  right: 40px;
+  font-size: 22px;
+  width: 50px;
+  height: 50px;
+  background: #e31b6d;
+  color: #fff;
+  border: none;
+  cursor: pointer;
 }
 a {
   text-decoration: none;
@@ -606,3 +618,4 @@ label{
     height: 120vh !important;
   }
 }
+
