@@ -543,9 +543,9 @@ label{
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 300px;
+  width: 280px;
   height: 320px;
-  background: #4e5356;
+  background: #252934;
 }
 .swiper-slide .imgBx{
     width: 100%;
@@ -565,15 +565,21 @@ label{
 .swiper-slide .details h4{
     margin: 0;
     padding: 0;
-    font-size: 20px;
+    font-size: 16px;
     color: white;
     text-align: center;
     line-height: 20px;
 }
 .swiper-slide .details h4 span {
     font-size: 16px;
-    color: #f44336;
+    color: #e31b6d;
 }
+
+
+
+
+
+
 
 .projects{
   display: flex;
@@ -618,4 +624,6 @@ label{
     height: 120vh !important;
   }
 }
+
+
 
