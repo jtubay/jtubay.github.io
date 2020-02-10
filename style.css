@@ -448,7 +448,8 @@ label{
   line-height: 20px;
   color: #8e8b8b;
   position: relative;
-  background-color: rgba(27, 36, 47, .8);;
+  background-color: rgba(27, 36, 47, .8);
+  
 }
 
 .team .team_member h3{
@@ -588,25 +589,26 @@ label{
 
 }
 
-/* media queries nav 796*/
+/* media queries nav 796
 @media(max-width: 576px){
   .typing {
     font-size: 2rem !important;
   }
   #two {
-    height: 280vh !important;
+    height: 90rem !important;
   }
   #three{
     height: 120vh !important;
   }
-}
-
+}*/
 
 /*Sprit*/
 #three{
   background: #dde3e6;
   padding-top: 50px;
-  height: calc(75vh - 8em);
+  height: 25rem;
+  min-height: 25rem;
+  
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: 50% 50%;
@@ -657,3 +659,28 @@ label{
   margin: 0;
 }
 /*End*/
+
+.role-container-js{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media(max-width:1031px) {
+  section{
+    height: 75rem!important;
+    min-height: 75rem!important;
+  }
+      .typing {
+        font-size: 2rem !important;
+      }
+}
+@media(max-width:747px) {
+  section{
+    height: 95rem!important;
+    min-height: 95rem!important;
+  }
+  .typing {
+    font-size: 2rem !important;
+  }
+}
