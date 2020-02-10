@@ -1,33 +1,6 @@
-/**{
-    margin: 0;
-    padding: 0;
+:root{
+  --pixel-size:6;
 }
-.home {
-    height: 52rem;
-    width: 100vw;
-    background-color:red;
-    min-height: 52rem;
-}
-
-.home-2 {
-    height: 100vh;
-    width: 100vw;
-    background-color:blue;
-}
-
-#particles-js{
-    height: 100vh;
-    background-size:cover;
-    position: relative;
-    background-position: bottom;
-    background-attachment: fixed;
-    z-index: -100;
-    min-height: 100vh;
-    background-color:black;
-}
-.textwrapper{
-    color: white;
-}*/
 
 * {
   box-sizing: border-box;
@@ -180,6 +153,9 @@ i {
 }
 /*ScrollUp*/
 #topBtn {
+  position: fixed;
+  bottom: 40px;
+  right: 40px;
   font-size: 22px;
   width: 50px;
   height: 50px;
@@ -187,6 +163,9 @@ i {
   color: #fff;
   border: none;
   cursor: pointer;
+  display: none;
+  z-index: 100000;
+  border-radius: 50%;
   
 }
 a {
@@ -201,7 +180,7 @@ h1 a {
   width: 1em;
   height: 1em;
   margin: 0 auto;
-  background-color: #303132;
+  background-color: rgba(27, 36, 47, .8);
   font-size: 3em;
   line-height: 3em;
   color: transparent;
@@ -236,7 +215,7 @@ h2 {
   display: block;
   height: 1.5em;
   margin: 1.5em 0;
-  color: #606060;
+  color: rgba(27, 36, 47, .8);
   line-height: 1.25em;
 }
 
@@ -279,7 +258,7 @@ hr {
   width: 2em;
   line-height: 2em;
   margin: 0 0.2em;
-  color: #555;
+  color: rgba(27, 36, 47, .8);
   font-size: 1.5em;
  
   border-radius: 50%;
@@ -623,4 +602,58 @@ label{
 }
 
 
+/*Sprit*/
+#three{
+  background: #dde3e6;
+  padding-top: 50px;
+  height: calc(75vh - 8em);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
 
+}
+.character{
+  width: calc(32px * var(--pixel-size));
+  height: calc(32px * var(--pixel-size));
+  overflow: hidden;
+  position: relative;
+  margin: 0 auto;
+
+}
+.characterSprite{
+  animation: moveSpriteSheet 1s steps(4) infinite;
+  width: calc(128px * var(--pixel-size));
+  position: absolute;
+}
+.pixelart{
+  image-rendering: pixelated;
+}
+.characterShadow{
+  position: absolute;
+  width: calc(32px * var(--pixel-size));
+  height: calc(32px * var(--pixel-size));
+}
+.faceRight{
+  top: calc(-32px * var(--pixel-size));
+}
+.faceUp{
+  top: calc(-64px * var(--pixel-size));
+}
+.faceLeft{
+  top: calc(-96px * var(--pixel-size));
+}
+@keyframes moveSpriteSheet {
+  from{
+    transform: translate3d(0px,0,0)
+  }
+  to{
+    transform: translate3d(-100%,0,0);
+  }
+}
+.moreAbout h3{
+  font-size: 1em;
+  text-transform: uppercase;
+  margin: 0;
+}
+/*End*/
