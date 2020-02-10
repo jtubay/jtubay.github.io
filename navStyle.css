@@ -2,9 +2,12 @@
 .nav{
     width:100%;
     text-align: right;
-    background: rgba(0, 0, 0, .5);
+    background: rgba(27, 36, 47, .8);
     left: 0;
-    box-shadow: 0 5px 5px 2px rgba(0, 0, 0, .2);
+    /*box-shadow: 0 5px 5px 2px rgba(0, 0, 0, .2);*/
+    border-bottom: 3px solid #04c2c9;
+    z-index: 1000;
+    height: 50px;
    
 }
 .bottom-nav {
@@ -27,8 +30,8 @@
     
 }
 .nav ul li .nav-link:hover{
-    color: #eee;
-    background: #333;
+    color: #e31b6d;
+    
 }
 
 
