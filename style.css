@@ -167,6 +167,7 @@ i {
   z-index: 100000;
   border-radius: 50%;
   
+  
 }
 a {
   text-decoration: none;
@@ -395,6 +396,7 @@ label{
   color: white;
   padding: 4px 8px;
   min-width: 100px;
+  
 }
 
 
@@ -464,6 +466,9 @@ label{
   color: #ccc;
   font-size: 16px;
   margin: 12px 0 ;
+}
+.role-sub{
+  color: #ccc;
 }
 
 .team .team_member .team_img{
@@ -713,3 +718,22 @@ margin-left: -10px;
 margin-bottom: -20px;
 }
 /*text bubble end*/
+.reactJ{
+  color:#04c2c9;
+}
+.vue{
+  color:#41b883;
+  
+}
+.query{
+  color: #4169e1;
+}
+.bootStrap{
+  color: #7a43b6;
+}
+.sass{
+  color: #cd6799;
+}
+.scss{
+  color: pink;
+}
