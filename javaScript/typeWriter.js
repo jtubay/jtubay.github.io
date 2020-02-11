@@ -1,4 +1,4 @@
-const texts = ['Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt asperiores, doloribus obcaecati exercitationem at non dolore hic voluptates velit quia consectetur dicta veritatis sint. Quos ducimus beatae odit at amet.'];
+const texts = ['HOOT HOOT MUTHERFACKER!'];
 let count = 0;
 let index = 0;
 let currentText = '';

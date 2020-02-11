@@ -16,7 +16,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #f0f0f0;
+  background-color: #dde3e6;
   /*font-family: Courier, monospace;*/
   font-family: 'open sans';
   font-style: normal;
@@ -667,7 +667,7 @@ label{
   flex-direction: column;
 }
 
-@media(max-width:1031px) {
+@media(max-width:1051px) {
   section{
     height: 75rem!important;
     min-height: 75rem!important;
@@ -676,7 +676,7 @@ label{
         font-size: 2rem !important;
       }
 }
-@media(max-width:747px) {
+@media(max-width:767px) {
   section{
     height: 95rem!important;
     min-height: 95rem!important;
@@ -685,11 +685,13 @@ label{
     font-size: 2rem !important;
   }
 }
+
 /*text bubble*/
 .speech{
   margin: 0 auto;
   width: 30%;
   height: 30%;
+  min-width:15rem;
   
 }
 .speaking h4{
@@ -701,6 +703,17 @@ label{
 position: relative;
 background: #04c2c9;
 border-radius: .4em;
+left: -200%!important;
+top:-1rem!important;
+height: 5rem;
+}
+@media(max-width:608px){
+  .speech-bubble{
+    left: -68%!important;
+  }
+}
+.total{
+  margin-left: 20%!important;
 }
 
 .speech-bubble:after {
