@@ -4,12 +4,12 @@ particlesJS("particles-js", {
         "value":80
     },
     "color":{
-        "value": "#04c2c9"
+        "value": ["#04c2c9", "#e31b6d"]
     },
     "shape":{
         "type": "circle",
         "stroke":{
-            "width":0.1,
+            "width":0.5,
             "color":"#40e0d0"
         }
     },
