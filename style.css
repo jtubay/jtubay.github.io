@@ -614,11 +614,6 @@ label{
   height: 25rem;
   min-height: 25rem;
   
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
-
 }
 .character{
   width: calc(32px * var(--pixel-size));
@@ -692,7 +687,7 @@ label{
   width: 30%;
   height: 30%;
   min-width:15rem;
-  
+  position: relative;
 }
 .speaking h4{
   color: #ccc;
@@ -700,21 +695,20 @@ label{
   padding: .5rem;
 }
 .speech-bubble {
-position: relative;
+position: absolute;
 background: #04c2c9;
 border-radius: .4em;
-left: -200%!important;
-top:-1rem!important;
+/*left: -218%!important;
+top:-1rem!important;*/
 height: 5rem;
+width:12rem;
+top: -195%;
+left: 40%;
 }
-@media(max-width:608px){
-  .speech-bubble{
-    left: -68%!important;
-  }
-}
+/*
 .total{
   margin-left: 20%!important;
-}
+}*/
 
 .speech-bubble:after {
 content: '';
