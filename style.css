@@ -608,6 +608,8 @@ label{
   }
 }*/
 
+
+
 /*Sprit*/
 #three{
   background: #dde3e6;
@@ -704,7 +706,7 @@ border: 20px solid transparent;
 border-top-color: #04c2c9;
 border-bottom: 0;
 border-left: 0;
-margin-left: -10px;
+margin-left: -26px;
 margin-bottom: -20px;
 }
 /*text bubble end*/
@@ -812,10 +814,13 @@ margin-bottom: -20px;
 }
 @media(max-width:747px){
   section{
-    height: 116rem!important;
-    min-height: 116rem!important;
+    height: 115rem!important;
+    min-height: 115rem!important;
   }
   .typing {
     font-size: 2rem !important;
+  }
+  .team_memberMe .team_imgMe{
+    top:255px;
   }
 }
