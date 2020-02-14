@@ -1,5 +1,5 @@
 section {
-  height: 50rem;
+  height: 70rem;
   padding: 4em;
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -40,11 +40,7 @@ section:nth-of-type(2) img, section:nth-of-type(3) img {
   width: 250px;
 }
 
-section:nth-of-type(3) {
-  background-color: white;
-  -ms-grid-columns: (33.3%)[3];
-      grid-template-columns: repeat(3, 33.3%);
-}
+
 
 section:nth-of-type(3) p {
   width: 50%;
