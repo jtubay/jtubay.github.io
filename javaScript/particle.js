@@ -40,7 +40,7 @@ particlesJS("particles-js", {
         value_area: 800
       }
     },
-    color: { value: ["#04c2c9", "#e31b6d"] },
+    color: { value: ["#04c2c9", "#e31b6d", /*"7510F7"*/] },
     shape: {
       type: ["circle", "triangle"],
       stroke: { width: 0, color: "#000000" },

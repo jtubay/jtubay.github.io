@@ -742,7 +742,7 @@ margin-bottom: -20px;
 .team_memberMe{
 
 
-  top: -2rem;
+  top: -9rem;
   font-size: 16px;
   margin: 15px 0;
   width: 680px;
@@ -763,7 +763,7 @@ margin-bottom: -20px;
   
 }
 .team_memberMe p.roleMe{
-  color:#04c2c9;
+  color:#e31b6d;
   font-size: 26px;
   text-transform: uppercase;
   margin: 12px 0 ;
@@ -775,7 +775,7 @@ margin-bottom: -20px;
   height: 150px;
   border-radius: 50%;
   position: absolute;
-  top: -87px;
+  top: 170px;
   left: 50%;
   transform: translateX(-50%);
   
@@ -786,7 +786,7 @@ margin-bottom: -20px;
   height: 150px;
   border-radius: 50%;
   
-  background: #e31b6d;
+  background: #04c2c9;
 }
 /*me end*/
 
