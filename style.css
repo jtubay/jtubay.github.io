@@ -500,9 +500,9 @@ label{
 /*swipper*/
 .swiperDiv{
   background: #fff;
-  height: calc(90vh - 8em);
+  height: 80vh;
   color: #4e5356;
-  min-height: 90vh;
+  min-height: 80vh;
 }
 /*
 .swiper-container {
@@ -687,8 +687,8 @@ border-radius: .4em;
 top:-1rem!important;*/
 height: 7.5rem;
 width:12rem;
-top: -299%;
-left: 40%;
+top: -310%;
+left: 42%;
 }
 /*
 .total{
@@ -777,7 +777,7 @@ margin-bottom: -20px;
   height: 150px;
   border-radius: 50%;
   position: absolute;
-  top: 170px;
+  top: 185px;
   left: 50%;
   transform: translateX(-50%);
   
@@ -796,8 +796,8 @@ margin-bottom: -20px;
 
 @media(max-width:1057px) {
   section{
-    height: 93rem!important;
-    min-height: 93rem!important;
+    height: 90rem!important;
+    min-height: 90rem!important;
   }
       .typing {
         font-size: 2rem !important;
@@ -814,13 +814,20 @@ margin-bottom: -20px;
 }
 @media(max-width:747px){
   section{
-    height: 115rem!important;
-    min-height: 115rem!important;
+    height: 110rem!important;
+    min-height: 110rem!important;
   }
   .typing {
     font-size: 2rem !important;
   }
   .team_memberMe .team_imgMe{
-    top:255px;
+    top: 190px;
+  }
+
+}
+@media(max-width:558px){
+  .team_memberMe .team_imgMe{
+    top: 270px;
   }
 }
+
