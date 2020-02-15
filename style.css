@@ -830,4 +830,13 @@ margin-bottom: -20px;
     top: 270px;
   }
 }
+@media (max-width:471px){
+  .team_memberMe .team_imgMe{
+    top: 285px!important;
+  }
+  section{
+    height: 115rem!important;
+    min-height: 115rem!important;
+  }
+}
 
