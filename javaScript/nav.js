@@ -12,3 +12,17 @@ window.onscroll = () => {
         nav.classList.remove('top-nav');
     }
 }
+
+const navSlide = () => {
+    const burger = document.querySelector('.burger');
+    const nav = document.querySelector('.nav-links');
+
+    burger.addEventListener('click', ()=>{
+        nav.classList.toggle('navActive')
+    })
+}
+const app = ()=> {
+    navSlide()
+}
+
+app()
