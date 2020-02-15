@@ -796,27 +796,21 @@ margin-bottom: -20px;
 
 @media(max-width:1057px) {
   section{
-    height: 90rem!important;
-    min-height: 90rem!important;
+    height: 120rem!important;
+    min-height: 120rem!important;
   }
       .typing {
         font-size: 2rem !important;
       }
 }
 @media(max-width:768px) {
-  section{
-    height: 90rem!important;
-    min-height: 90rem!important;
-  }
+ 
   .typing {
     font-size: 2rem !important;
   }
 }
 @media(max-width:747px){
-  section{
-    height: 110rem!important;
-    min-height: 110rem!important;
-  }
+
   .typing {
     font-size: 2rem !important;
   }
@@ -835,10 +829,7 @@ margin-bottom: -20px;
     top: 285px;
   
   }
-  section{
-    height: 120rem!important;
-    min-height: 120rem!important;
-  }
+
 }
 @media (max-width:436px){
   .team_memberMe .team_imgMe{
