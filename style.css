@@ -832,11 +832,37 @@ margin-bottom: -20px;
 }
 @media (max-width:471px){
   .team_memberMe .team_imgMe{
-    top: 285px!important;
+    top: 285px;
+  
   }
   section{
-    height: 115rem!important;
-    min-height: 115rem!important;
+    height: 120rem!important;
+    min-height: 120rem!important;
   }
 }
+@media (max-width:436px){
+  .team_memberMe .team_imgMe{
+    top: 282px;
+    left: 40%;
+  }
+ 
+  .team_memberMe .team_imgMe{
+    width:100px;
+    height: 100px;  
+  }
+  .team_memberMe{
 
+    font-size: 14px;
+
+  }
+}
+@media(max-width:386px){
+  .team_memberMe .team_imgMe{
+    top: 369px;
+  
+  }
+  section{
+    height: 130rem!important;
+    min-height: 130rem!important;
+  }
+}
