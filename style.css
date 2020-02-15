@@ -727,7 +727,8 @@ margin-bottom: -20px;
   color: #cd6799;
 }
 .scss{
-  color: pink;
+  /*color: pink;*/
+  color: blue;
 }
 
 
@@ -842,9 +843,7 @@ margin-bottom: -20px;
     height: 100px;  
   }
   .team_memberMe{
-
     font-size: 14px;
-
   }
 }
 @media(max-width:386px){
