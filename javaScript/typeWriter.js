@@ -1,4 +1,4 @@
-const texts = ['Hello! I am Jean Tubay, a full stack developer. I work with JS (with many frame works), mongoDB and MYSQL. Look at my work below'];
+const texts = ['Hello! Look below to view my projects!'];
 let count = 0;
 let index = 0;
 let currentText = '';
@@ -17,6 +17,6 @@ let letter = '';
         count++
         index = 0;
     }
-    setTimeout(type, 200)
+    setTimeout(type, 100)
 
 }())
