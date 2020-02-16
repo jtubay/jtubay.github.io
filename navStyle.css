@@ -82,6 +82,7 @@ nav{
     display: none;
     position: absolute;
     left: 90%;
+    top: 10px;
 }
 .burger div{
     
