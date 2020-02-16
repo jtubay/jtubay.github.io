@@ -500,9 +500,9 @@ label{
 /*swipper*/
 .swiperDiv{
   background: #fff;
-  height: 60vh;
+  height: 80vh;
   color: #4e5356;
-  min-height: 60vh;
+  min-height: 80vh;
 }
 /*
 .swiper-container {
