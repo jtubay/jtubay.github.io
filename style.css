@@ -500,9 +500,9 @@ label{
 /*swipper*/
 .swiperDiv{
   background: #fff;
-  height: 85vh;
+  height: 55vh;
   color: #4e5356;
-  min-height: 80vh;
+  min-height: 55vh;
 }
 /*
 .swiper-container {
@@ -778,7 +778,7 @@ margin-bottom: -20px;
   height: 150px;
   border-radius: 50%;
   position: absolute;
-  top: 185px;
+  top: 205px;
   left: 50%;
   transform: translateX(-50%);
   
@@ -869,62 +869,78 @@ margin-bottom: -20px;
     min-height: 81rem!important;
   }
 }
-@media(max-width:747px){
+
+@media(max-width:782px){
   section{
-    height: 105rem!important;
-    min-height: 105rem!important;
+    height: 85rem!important;
+    min-height: 85rem!important;
   }
   .typing {
     font-size: 2rem !important;
   }
-}
-@media(max-width:656px){
   .team_memberMe .team_imgMe{
-    top: 210px;
+    top: 235px;
   }
 }
-@media(max-width:558px){
-  .team_memberMe .team_imgMe{
-    top: 250px;
+@media(max-width:782px){
+  section{
+    height: 105rem!important;
+    min-height: 105rem!important;
   }
+  .team_memberMe{
+
+    font-size: 14px;
+  }
+  .team_memberMe .team_imgMe{
+    top: 220px;
+  }
+ 
+}
+@media(max-width:601px){
+  .team_memberMe .team_imgMe{
+    top: 265px;
+  }
+  .team_memberMe p.roleMe{
+  
+    font-size: 20px;
+   
+  }
+}
+@media(max-width:537px){
+  .team_memberMe .team_imgMe{
+    top: 295px;
+  }
+}
+@media(max-width:460px){
+  .team_memberMe .team_imgMe{
+    top: 275px;
+  }
+  .team_memberMe p.roleMe{
+  
+    font-size: 17px;
+   
+  }
+  .team_memberMe{
+
+    font-size: 10px;
+  }
+ 
+}
+@media(max-width:429px){
   section{
     height: 108rem!important;
     min-height: 108rem!important;
   }
-}
-@media(max-width:465px){
   .team_memberMe .team_imgMe{
-    top: 312px;
-  }
-  section{
-    height: 111rem!important;
-    min-height: 111rem!important;
+    top: 295px;
   }
 }
-@media(max-width:465px){
-  .team_memberMe .team_imgMe{
-    top: 322px;
-  }
+@media(max-width:400px){
   section{
-    height: 112rem!important;
-    min-height: 112rem!important;
+    height: 110rem!important;
+    min-height: 110rem!important;
   }
-}
-@media(max-width:425px){
   .team_memberMe .team_imgMe{
-    top: 330px;
-  }
-  section{
-    height: 115rem!important;
-    min-height: 115rem!important;
-  }
-}
-@media(max-width:401px){
-  .team_memberMe .team_imgMe{
-    top: 360px;
-  }
-  section{
-    height: 118rem!important;
-    min-height: 118rem!important;
+    top: 320px;
   }
 }
