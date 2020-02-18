@@ -901,7 +901,7 @@ margin-bottom: -20px;
     top: 265px;
   }
   .team_memberMe p.roleMe{
-  
+    font-family: monospace!important;
     font-size: 20px;
    
   }
@@ -932,7 +932,7 @@ margin-bottom: -20px;
     min-height: 108rem!important;
   }
   .team_memberMe .team_imgMe{
-    top: 295px;
+    top: 315px;
   }
 }
 @media(max-width:400px){
@@ -942,5 +942,14 @@ margin-bottom: -20px;
   }
   .team_memberMe .team_imgMe{
     top: 320px;
+  }
+}
+@media(max-width:400px){
+  section{
+    height: 113rem!important;
+    min-height: 113rem!important;
+  }
+  .team_memberMe .team_imgMe{
+    top: 350px;
   }
 }
