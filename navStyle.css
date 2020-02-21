@@ -40,8 +40,12 @@
     left: 5%;
     padding: 10px;
     
-    
-
+}
+.initials {
+    color: #04c2c9;
+}
+.ini{
+    color: #e31b6d;
 }
 nav{
     display: flex;
