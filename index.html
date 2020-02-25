@@ -30,7 +30,7 @@
 
     <nav class="nav bottom-nav">
         <div class="logo">
-            <h4><span class="ini">{</span> <span class="initials">JT</span> <span class="ini">}</span></h4>
+            <h4><span class="ini">{</span> <span >JT</span> <span class="ini">}</span></h4>
         </div>
        
 
@@ -153,8 +153,8 @@
 </div>
 
 
-<article class="projecto">
-<div id="four" class="swiperDiv">
+<article class="projecto" id="four">
+<div  class="swiperDiv">
    
         <div class="projects" data-sal-duration="1200" data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease-out-bounce">
             
@@ -238,6 +238,120 @@
           </div>    
          
     </div>
+    <div class="bigProjectContainer">  
+        <div class="projects" data-sal-duration="1200" data-sal="slide-up" data-sal-delay="300" data-sal-easing="ease-out-bounce">
+            
+            <h1><span class="projects-bar">PROJECTS</span></h1>
+            
+            <article class="habla"></article>
+        </div> 
+        <div id="myProjectsBtn" class="filterBtn"> 
+            <a data-filter="all" class="button active">All</a>|
+            <a data-filter="react" class="button">React</a>|
+            <a data-filter="mySQL" class="button">MySQL</a>|
+            <a data-filter="vue" class="button">Vue</a>
+        </div>     
+        <div class="projectsContainer">
+            
+            <div class="box  filter react">
+                <div class="imageBox">
+                    <img src="./images/BusinessCards.png" alt="">
+                </div>
+                <div class="details">
+                    <div class="content">                    
+                        <h2>Full-Stack React app</h2>
+                        <p>A business card generator built in react that utilizes mySQL on the back end. This app allows users to pick a template and egenrate a business card.</p>
+                        <a target="_blank" href="https://stormy-harbor-93453.herokuapp.com/">Click For Site</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box filter vue">
+                <div class="imageBox">
+                    <img src="./images/!Bored.png" alt="">
+                </div>
+                <div class="details">
+                    <div class="content">                    
+                        <h2>Event Finder Site</h2>
+                        <p>A site created to help users find events based on location and event type desired. Build using MDB, an event API, and has a simple local storage logging verification.</p>
+                        <a target="_blank" href="https://jtubay.github.io/Bored/">Click For Site</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box filter react">
+                <div class="imageBox">
+                    <img src="./images/ChatApp.png" alt="">
+                </div>
+                <div class="details">
+                    <div class="content">                    
+                        <h2>React Chat App</h2>
+                        <p>Build using React and socket.io. This real time chat app allows multiple users to chat through various chatrooms.</p>
+                        <a target="_blank" href="https://practical-mccarthy-cc5a32.netlify.com/">Click For Site</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box  filter react">
+                <div class="imageBox">
+                    <img src="./images/petMatch.png" alt="">
+                </div>
+                <div class="details">
+                    <div class="content">                    
+                        <h2>React Pet Match App</h2>
+                        <p>This app utilizes a pet image API to pull various dog images. Users can like or dislike images. Users are matched with pets that like them back.</p>
+                        <a target="_blank" href="https://jtubay.github.io/ReactPetMatch/">Click For Site</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box filter mySQL">
+                <div class="imageBox">
+                    <img src="./images/TheGame.png" alt="">
+                </div>
+                <div class="details">
+                    <div class="content">                    
+                        <h2>MySQL HandleBars fighting Game</h2>
+                        <p>This broswer game was build using HandleBars and mySQl for the backend. The site has a protected sign up and loging.</p>
+                        <a target="_blank" href="https://immense-hamlet-97451.herokuapp.com/">Click For Site</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box filter react">
+                <div class="imageBox">
+                    <img src="./images/WeatherApp.png" alt="">
+                </div>
+                <div class="details">
+                    <div class="content">                    
+                        <h2>React Weather App</h2>
+                        <p>A react app that that allows the user to get the current weather of any searched location. Utilizes a weather API.</p>
+                        <a target="_blank" href="https://jtubay.github.io/newreactweatherapp/">Click For Site</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box filter react">
+                <div class="imageBox">
+                    <img src="./images/GetFood.png" alt="">
+                </div>
+                <div class="details">
+                    <div class="content">                    
+                        <h2>React App Food Searcher</h2>
+                        <p>Allows users to look up various foods and find recipies.</p>
+                        <a target="_blank" href="https://jtubay.github.io/FoodReactApp/">Click For Site</a>
+                    </div>
+                </div>
+            </div>
+            <div class="box filter mySQL">
+                <div class="imageBox">
+                    <img src="./images/notetaker.png" alt="">
+                </div>
+                <div class="details">
+                    <div class="content">                    
+                        <h2>MySQL NoteTaker</h2>
+                        <p>Note taker that saves users notes and allows them to pull them up and edit them at any time.</p>
+                        <a target="_blank" href="https://damp-springs-57757.herokuapp.com/">Click For Site</a>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </div>
 </article>
     <div class="container" id="five">
         <button id='topBtn' >
@@ -300,6 +414,7 @@
  <script src="./javaScript/nav.js"></script>
  <script src="./javaScript/swiper.js"></script>
  <script src="./javaScript/typeWriter.js"></script>
+ <script src="./javaScript/projectFilter.js"></script>
  <script src="./javaScript/contact.js"></script>
  <script src="./javaScript/scrollUp.js"></script>
 <script>
