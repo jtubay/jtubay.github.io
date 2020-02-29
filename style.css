@@ -511,7 +511,7 @@ label{
   background: #fff;
 }
 .bigProjectContainer{
-  height: 120vh;
+  height: 140vh!important;
   color: #4e5356;
 
   
@@ -524,11 +524,12 @@ label{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: center;
 }
 .projectsContainer .box {
   position: relative;
-  width: 23%;
-  height: 23%;
+  width: 250px;
+  height: 250px;
 
   margin: 10px;
   box-sizing: border-box;
@@ -586,10 +587,9 @@ label{
   background-color: #e31b6d;
   border-radius: 25px;
   margin: 0px auto;
-  padding: 4px;
+  padding: 3px;
   position: absolute;
-  left: 25%;
-  
+  left: 28%;
   
 }
 
