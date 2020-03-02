@@ -2,6 +2,8 @@ const express = require('express');
 const sendMail = require('./mail')
 const path = require('path');
 const app = express()
+require('dotenv').config();
+
 
 
 //data parsing
