@@ -16,7 +16,7 @@ body {
   position: absolute;
   width: 100%;
   height: 100%;
-  background-color: #dde3e6;
+  background-color: #1B242F;
   /*font-family: Courier, monospace;*/
   font-family: 'open sans';
   font-style: normal;
@@ -151,6 +151,7 @@ i {
   line-height: 3em;
   font-family: Courier, monospace;
   
+  
 }
 /*ScrollUp*/
 #topBtn {
@@ -179,10 +180,10 @@ h1 a {
   position: relative;
   display: block;
   overflow: hidden;
-  width: 1em;
-  height: 1em;
+  width: .8em;
+  height: .8em;
   margin: 0 auto;
-  background-color: rgba(27, 36, 47, .8);
+  background-color: #dde3e6;
   font-size: 3em;
   line-height: 3em;
   color: transparent;
@@ -201,16 +202,16 @@ h1 a:active {
 h1 em {
   position: absolute;
   display: block;
-  top: 0.5em;
-  left: 0.4375em;
+  top: 0.2em;
+  left: 0.2375em;
   font-size: 0.5em;
   line-height: 1em;
-  color: #fff;
+  color: #1B242F;
 }
 
 h1 em:last-child {
-  top: 0.5em;
-  left: 1em;
+  top: 0.2em;
+  left: .8em;
 }
 
 h2 {
@@ -233,9 +234,9 @@ hr {
   display: block;
   overflow: hidden;
   width: 8em;
-  height: 1.25em;
+  height: 1.5em;
   margin: 1em auto;
-  font-size: 2em;
+  font-size: 1.5em;
   line-height: 1.5em;
   box-sizing: content-box;
   align-content: center;
@@ -245,6 +246,7 @@ hr {
 .slogan span {
   display: block;
   width: 8em;
+  color: #dde3e6;
   
 }
 
@@ -260,8 +262,8 @@ hr {
   width: 2em;
   line-height: 2em;
   margin: 0 0.2em;
-  color: rgba(27, 36, 47, .8);
-  font-size: 1.5em;
+  color: #dde3e6;
+  font-size: 1em;
  
   border-radius: 50%;
 }
@@ -787,14 +789,18 @@ textarea.contact-form-text{
    font-size: 16px;
  
 }
+.contact-form-btn:hover{
+  background: #04c2c9;
+  color: #1B242F;
+  border: none;
+}
 .iconContact{
- 
   background-color: #dde3e6;
-  
 }
 .iconMe{
   margin-top: 50px;
 }
+
 .mainContact{
   background: #1B242F;
 }
