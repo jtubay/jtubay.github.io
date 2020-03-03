@@ -150,6 +150,7 @@ i {
   width: 100%;
   line-height: 3em;
   font-family: Courier, monospace;
+  
 }
 /*ScrollUp*/
 #topBtn {
@@ -727,6 +728,7 @@ label{
   padding-bottom:1.5rem;
   font-family: 'Raleway';
   font-weight: bold;
+  color: #ccc;
 
 }
 
@@ -742,6 +744,66 @@ label{
 
 }
 
+.contact-form{
+  max-width: 500px;
+  margin: auto;
+  padding: 20px 10px;
+  overflow: hidden;
+  height: 70vh;
+  
+}
+.contact-form-text{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 8px auto;
+  border: 0;
+  background: #dde3e6;
+  
+  padding: 1px 20px;
+  outline: none;
+  color: #34495e;
+  transition: 0.5s;
+  outline: none;
+}
+.contact-form-text:focus{
+  box-shadow: 0 0 10px 4px #34495e; 
+}
+
+textarea.contact-form-text{
+   resize: none;
+   height: 100px;
+}
+
+.contact-form-btn{
+   float: right;
+   color: #ccc;
+   background: transparent;
+   text-decoration: none;
+   border: #ccc 2px solid;
+   padding: 15px 25px;
+   line-height: 1em;
+   cursor: pointer;
+   font-size: 16px;
+ 
+}
+.iconContact{
+ 
+  background-color: #dde3e6;
+  
+}
+.iconMe{
+  margin-top: 50px;
+}
+.mainContact{
+  background: #1B242F;
+}
+.container{
+  background: #1B242F;
+}
+.spanContact{
+  color: #e31b6d;
+}
 
 /* media queries nav 796
 @media(max-width: 576px){
