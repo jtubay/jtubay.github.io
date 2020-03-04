@@ -776,6 +776,7 @@ label{
 textarea.contact-form-text{
    resize: none;
    height: 100px;
+   line-height: 20px;
 }
 
 .contact-form-btn{
@@ -810,6 +811,9 @@ textarea.contact-form-text{
 }
 .spanContact{
   color: #e31b6d;
+}
+#finalMessage{
+  color: #04c2c9;
 }
 
 /* media queries nav 796
