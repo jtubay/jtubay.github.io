@@ -520,6 +520,20 @@ label{
 
   
 }
+@media screen and (max-width:1350px){
+  .bigProjectContainer{
+    height: 150vh!important;
+  
+    
+  }
+}
+@media screen and (max-width:1050px){
+  .bigProjectContainer{
+    height: 185vh!important;
+  
+    
+  }
+}
 
 .projectsContainer{
   width: 80%;
